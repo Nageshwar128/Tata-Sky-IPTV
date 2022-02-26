@@ -36,7 +36,6 @@ while True:
     elif ch == 2:
         rmn = str(input("Enter your Registered Mobile No without the Country Code: "))
         sid = str(input("Enter your Subscriber Id: "))
-        login.generateOTP(sid=sid, rmn=rmn)
         otp = str(input("Enter the OTP sent to your rmn: "))
         print("\n \n")
         print("*************************************")
